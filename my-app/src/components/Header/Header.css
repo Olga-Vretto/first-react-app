@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 80%;
+  margin-top: 10px;
+}
+
+.header-container {
+  margin: 0 auto;
+}
+.header-links {
+  display: flex;
+  gap: 8px;
+}
+
+.header-link {
+  color: black;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: rgba(64, 121, 226, 0.658) 1px 1px 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.header-link:hover {
+  background-color: rgba(240, 128, 128, 0.775);
+}
