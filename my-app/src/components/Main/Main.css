@@ -54,3 +54,8 @@
   transition: all 0.5s ease;
   cursor: pointer;
 }
+
+.main-link:hover {
+  background-color: rgba(240, 128, 128, 0.775);
+}
+
